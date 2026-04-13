@@ -1,16 +1,35 @@
-# React + Vite
+# 🛒 Premium Digital Tools - Shopping Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional and responsive digital product shopping interface built with React. This project demonstrates state management (State Lifting), conditional rendering, and a seamless user experience using modern UI libraries.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Technologies Used
 
-## React Compiler
+This project leverages the power of the following technologies:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React.js** (Frontend Library)
+* **Tailwind CSS** (Styling Framework)
+* **DaisyUI** (Tailwind Component Library)
+* **React Toastify** (Interactive Notifications)
+* **Vite** (Build Tool)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Key Features
+
+### 1. Interactive Shopping Cart (State Management)
+Users can seamlessly add products to their cart. The system uses **State Lifting** to synchronize the product selection with the Navbar counter and the dedicated Cart Section in real-time.
+
+### 2. Dynamic Cart View & Management
+A dedicated cart tab allows users to review their selected items. It features:
+* **Automated Price Calculation:** Real-time total amount adjustment.
+* **Item Removal:** Easily remove items, which automatically resets the product's "Buy Now" button status.
+* **Empty State:** A beautiful "Empty Cart" UI when no items are selected.
+
+### 3. Responsive UI & User Feedback
+The project is designed with a **Mobile-First** approach, ensuring it looks great on all devices. Additionally, it uses **React Toastify** to provide instant visual feedback (Success/Error messages) whenever an action is performed.
+
+---
+
+
